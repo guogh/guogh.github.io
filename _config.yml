@@ -1,5 +1,5 @@
-#使用pygments来进行代码高亮
-highlighter: pygments
+#使用rouge来进行代码高亮（GitHub Pages 仅支持 rouge）
+highlighter: rouge
 
 #使自定义插件无效，此命令为github上默认的命令
 safe: true
