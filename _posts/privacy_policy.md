@@ -1,3 +1,11 @@
+---
+layout: content
+title: 隐私政策
+categories: [app,隐私政策]
+---
+
+
+
 # 隐私政策 / Privacy Policy
 
 **看图（LookImage）**
