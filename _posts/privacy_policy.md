@@ -1,0 +1,83 @@
+# 隐私政策 / Privacy Policy
+
+**看图（LookImage）**
+
+生效日期 / Effective Date：2026-09-28
+
+---
+
+## 简体中文
+
+本应用是一款纯本地图片查看工具。我们高度重视您的隐私，本政策说明我们如何处理您的数据。
+
+### 1. 数据存储
+
+您导入的所有图片、文件均存储于设备本地的 Application Support 目录，不会上传至任何服务器。
+
+### 2. 数据收集
+
+本应用不收集任何个人身份信息、设备信息或使用行为数据。
+
+### 3. 数据共享
+
+本应用不与任何第三方共享您的数据。
+
+### 4. 权限说明
+
+本应用仅请求以下系统权限：
+
+- **文件访问**：用于读取您主动导入的图片文件
+- **分享扩展（Share Extension）**：用于接收其他 App 通过系统分享面板传入的文件
+
+本应用不请求相册、相机、定位、通讯录等敏感权限。
+
+### 5. 数据删除
+
+您可以在应用内随时删除已导入的文件，所有数据将从本地彻底清除。卸载应用将同时清除所有数据。
+
+### 6. 联系我们
+
+如对本隐私政策有任何疑问，请通过设置页「联系我们」发送邮件至 [zaiyou789@gmail.com](mailto:zaiyou789@gmail.com)。
+
+### 7. 政策更新
+
+本政策如有更新，将在应用内设置页公示。
+
+---
+
+## English
+
+LookImage is a purely local image viewer. We take your privacy seriously. This policy explains how we handle your data.
+
+### 1. Data Storage
+
+All images and files you import are stored locally on your device in the Application Support directory and are never uploaded to any server.
+
+### 2. Data Collection
+
+This app does not collect any personal identity information, device information, or usage behavior data.
+
+### 3. Data Sharing
+
+This app does not share your data with any third party.
+
+### 4. Permissions
+
+This app only requests the following system permissions:
+
+- **File Access**: to read image files you actively import
+- **Share Extension**: to receive files shared from other apps via the system share sheet
+
+This app does not request sensitive permissions such as Photos, Camera, Location, or Contacts.
+
+### 5. Data Deletion
+
+You can delete imported files at any time within the app; all data will be permanently removed locally. Uninstalling the app will also clear all data.
+
+### 6. Contact Us
+
+If you have any questions about this privacy policy, please send an email to [zaiyou789@gmail.com](mailto:zaiyou789@gmail.com) via "Contact Us" in Settings.
+
+### 7. Policy Updates
+
+If this policy is updated, it will be announced in the in-app Settings page.

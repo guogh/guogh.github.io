@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>隐私政策 / Privacy Policy - 看图 LookImage</title>
+<style>
+  :root {
+    --bg: #f5f5f7;
+    --card: #ffffff;
+    --text: #1d1d1f;
+    --text-sub: #6e6e73;
+    --accent: #0071e3;
+    --border: #e5e5ea;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --card: #1c1c1e;
+      --text: #f5f5f7;
+      --text-sub: #98989d;
+      --accent: #2997ff;
+      --border: #2c2c2e;
+    }
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB",
+                 "Microsoft YaHei", "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+    padding: 24px 16px 64px;
+  }
+  .container { max-width: 760px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 28px; }
+  h1 { font-size: 26px; font-weight: 700; letter-spacing: -0.02em; }
+  .subtitle { color: var(--text-sub); font-size: 14px; margin-top: 6px; }
+  .lang-switch {
+    display: inline-flex; gap: 0; margin-top: 16px;
+    background: var(--card); border: 1px solid var(--border);
+    border-radius: 980px; padding: 2px;
+  }
+  .lang-switch button {
+    border: 0; background: transparent; color: var(--text-sub);
+    font-size: 14px; font-weight: 500; padding: 6px 18px;
+    border-radius: 980px; cursor: pointer; font-family: inherit;
+    transition: all .2s;
+  }
+  .lang-switch button.active {
+    background: var(--accent); color: #fff;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    padding: 28px 26px;
+  }
+  .lang-block { display: none; }
+  .lang-block.active { display: block; }
+  .lang-block + .lang-block { margin-top: 0; }
+  h2 { font-size: 19px; font-weight: 700; margin-bottom: 4px; }
+  .effective { color: var(--text-sub); font-size: 13px; margin-bottom: 20px; }
+  h3 {
+    font-size: 15.5px; font-weight: 600;
+    margin: 22px 0 6px;
+    display: flex; align-items: baseline; gap: 8px;
+  }
+  h3 .num { color: var(--accent); font-weight: 700; }
+  p { font-size: 15px; color: var(--text); }
+  .lead { color: var(--text-sub); }
+  ul { margin: 8px 0 4px 2px; list-style: none; }
+  li {
+    font-size: 15px; padding: 5px 0 5px 22px; position: relative;
+  }
+  li::before {
+    content: ""; position: absolute; left: 4px; top: 14px;
+    width: 6px; height: 6px; border-radius: 50%;
+    background: var(--accent);
+  }
+  li b { font-weight: 600; }
+  a { color: var(--accent); text-decoration: none; }
+  a:active { opacity: .7; }
+  footer {
+    text-align: center; color: var(--text-sub);
+    font-size: 12.5px; margin-top: 24px;
+  }
+  @media (max-width: 480px) {
+    body { padding: 16px 12px 48px; }
+    .card { padding: 22px 18px; border-radius: 14px; }
+    h1 { font-size: 22px; }
+    h2 { font-size: 17px; }
+    p, li { font-size: 14.5px; }
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>看图 · LookImage</h1>
+    <div class="subtitle">隐私政策 / Privacy Policy</div>
+    <div class="lang-switch" role="tablist" aria-label="Language">
+      <button id="btn-zh" class="active" onclick="switchLang('zh')" role="tab" aria-selected="true">简体中文</button>
+      <button id="btn-en" onclick="switchLang('en')" role="tab" aria-selected="false">English</button>
+    </div>
+  </header>
+
+  <div class="card">
+    <!-- ============ 中文 ============ -->
+    <section class="lang-block active" id="block-zh" lang="zh-CN">
+      <h2>隐私政策</h2>
+      <div class="effective">生效日期：2026-09-28</div>
+
+      <p class="lead">本应用是一款纯本地图片查看工具。我们高度重视您的隐私，本政策说明我们如何处理您的数据。</p>
+
+      <h3><span class="num">1.</span>数据存储</h3>
+      <p>您导入的所有图片、文件均存储于设备本地的 Application Support 目录，不会上传至任何服务器。</p>
+
+      <h3><span class="num">2.</span>数据收集</h3>
+      <p>本应用不收集任何个人身份信息、设备信息或使用行为数据。</p>
+
+      <h3><span class="num">3.</span>数据共享</h3>
+      <p>本应用不与任何第三方共享您的数据。</p>
+
+      <h3><span class="num">4.</span>权限说明</h3>
+      <p>本应用仅请求以下系统权限：</p>
+      <ul>
+        <li><b>文件访问</b>：用于读取您主动导入的图片文件</li>
+        <li><b>分享扩展（Share Extension）</b>：用于接收其他 App 通过系统分享面板传入的文件</li>
+      </ul>
+      <p>本应用不请求相册、相机、定位、通讯录等敏感权限。</p>
+
+      <h3><span class="num">5.</span>数据删除</h3>
+      <p>您可以在应用内随时删除已导入的文件，所有数据将从本地彻底清除。卸载应用将同时清除所有数据。</p>
+
+      <h3><span class="num">6.</span>联系我们</h3>
+      <p>如对本隐私政策有任何疑问，请通过设置页「联系我们」发送邮件至 <a href="mailto:zaiyou789@gmail.com">zaiyou789@gmail.com</a>。</p>
+
+      <h3><span class="num">7.</span>政策更新</h3>
+      <p>本政策如有更新，将在应用内设置页公示。</p>
+    </section>
+
+    <!-- ============ English ============ -->
+    <section class="lang-block" id="block-en" lang="en">
+      <h2>Privacy Policy</h2>
+      <div class="effective">Effective Date: 2026-09-28</div>
+
+      <p class="lead">LookImage is a purely local image viewer. We take your privacy seriously. This policy explains how we handle your data.</p>
+
+      <h3><span class="num">1.</span>Data Storage</h3>
+      <p>All images and files you import are stored locally on your device in the Application Support directory and are never uploaded to any server.</p>
+
+      <h3><span class="num">2.</span>Data Collection</h3>
+      <p>This app does not collect any personal identity information, device information, or usage behavior data.</p>
+
+      <h3><span class="num">3.</span>Data Sharing</h3>
+      <p>This app does not share your data with any third party.</p>
+
+      <h3><span class="num">4.</span>Permissions</h3>
+      <p>This app only requests the following system permissions:</p>
+      <ul>
+        <li><b>File Access</b>: to read image files you actively import</li>
+        <li><b>Share Extension</b>: to receive files shared from other apps via the system share sheet</li>
+      </ul>
+      <p>This app does not request sensitive permissions such as Photos, Camera, Location, or Contacts.</p>
+
+      <h3><span class="num">5.</span>Data Deletion</h3>
+      <p>You can delete imported files at any time within the app; all data will be permanently removed locally. Uninstalling the app will also clear all data.</p>
+
+      <h3><span class="num">6.</span>Contact Us</h3>
+      <p>If you have any questions about this privacy policy, please send an email to <a href="mailto:zaiyou789@gmail.com">zaiyou789@gmail.com</a> via "Contact Us" in Settings.</p>
+
+      <h3><span class="num">7.</span>Policy Updates</h3>
+      <p>If this policy is updated, it will be announced in the in-app Settings page.</p>
+    </section>
+  </div>
+
+  <footer>© 2026 LookImage · zaiyou789@gmail.com</footer>
+</div>
+
+<script>
+  function switchLang(lang) {
+    var isZh = lang === 'zh';
+    document.getElementById('block-zh').classList.toggle('active', isZh);
+    document.getElementById('block-en').classList.toggle('active', !isZh);
+    document.getElementById('btn-zh').classList.toggle('active', isZh);
+    document.getElementById('btn-en').classList.toggle('active', !isZh);
+    document.getElementById('btn-zh').setAttribute('aria-selected', isZh);
+    document.getElementById('btn-en').setAttribute('aria-selected', !isZh);
+    document.documentElement.lang = isZh ? 'zh-CN' : 'en';
+  }
+  // 默认跟随浏览器语言：非中文环境默认显示英文
+  if ((navigator.language || 'zh').toLowerCase().indexOf('zh') !== 0) {
+    switchLang('en');
+  }
+</script>
+</body>
+</html>
